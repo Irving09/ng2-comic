@@ -8,4 +8,11 @@ export class Signup {
 	constructor() {
 		console.log('sign-up component loaded');
 	}
+
+	registerToDatabase(email: string, confEmail: string, password: string, confPassword: string) {
+		console.log(email);
+		console.log(confEmail);
+		console.log(password);
+		console.log(confPassword);
+	}
 }
